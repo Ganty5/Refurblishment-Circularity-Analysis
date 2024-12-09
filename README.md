@@ -2,7 +2,7 @@
 Source of data: ereuse.org
 
 **Project Overview**
-This project focuses on analyzing the condition and circularity of refurbished devices to promote sustainable practices. By leveraging Python for data analysis and Power BI for creation of interactive dashboards. The aim is 
+This project focuses on analyzing the condition and circularity of refurbished devices to promote sustainable practices. By leveraging Python for data analysis and automation and Power BI for creation of interactive dashboards. The aim is 
 to extract insights that align with circular economy principles. This project is particularly useful for industries which specialize in refurbished electronics. 
 
 **About the Dataset**
