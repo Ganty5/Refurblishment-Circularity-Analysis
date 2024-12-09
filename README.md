@@ -40,6 +40,7 @@ OBJECTIVES
 4. Exploratory Data Analysis
 5. Visualization
 6. KPI Dashboard Design
+7. Automation
 
 **CONCLUSION**
 Refurbished devices reduce e-waste and align with sustainable practices. By analyzing the conditions of these devices, businesses can make data-driven decisions to improve refurbishment efficiency and promote a circular economy. This project demonstrates how a data-driven approach can provide actionable insights to support sustainability goals.
