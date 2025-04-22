@@ -175,7 +175,7 @@ df.groupby('Month')['Device_ID'].count().plot(marker='o')
 🎓 Master's Student in Business Intelligence  
 📍 Besançon, France  
 📫 Email: chidinmaukandu8@gmail.com
-💼 LinkedIn: [linkedin.com/in/chidinma-ukandu]([https://www.linkedin.com/in/chidinma-ukandu](https://www.linkedin.com/in/chidinma-ukandu-nwafor-01357b156/))
+💼 LinkedIn: ([https://www.linkedin.com/in/chidinma-ukandu](https://www.linkedin.com/in/chidinma-ukandu-nwafor-01357b156/))
 
 ---
 
