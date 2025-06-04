@@ -1,9 +1,9 @@
-# ♻️ Product Circularity & Automation in the Refurbishment Sector  
+# Product Circularity & Automation in the Refurbishment Sector  
 **By UKANDU Chidinma – Python Analysis Project**
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project explores how refurbished devices are evaluated, categorized, and ultimately processed for resale or disposal. It focuses on:
 
@@ -14,7 +14,7 @@ This project explores how refurbished devices are evaluated, categorized, and ul
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 - **Python (pandas, seaborn, matplotlib)** – Data analysis and visualization
 - **Jupyter Notebook** – Interactive exploration
@@ -22,7 +22,7 @@ This project explores how refurbished devices are evaluated, categorized, and ul
 
 ---
 
-## 📊 Key Insights & Visual Interpretations
+## Key Insights & Visual Interpretations
 
 ---
 
@@ -40,7 +40,7 @@ sns.histplot(Rebu_drop['Condition.Score'], kde=True, bins=10)
 
 ---
 
-### 🧱 2. Condition Category Breakdown
+### 2. Condition Category Breakdown
 
 ```python
 sns.countplot(x='Condition.Category', data=Rebu_drop, order=['High', 'Medium', 'Low', 'Discard'])
@@ -54,7 +54,7 @@ sns.countplot(x='Condition.Category', data=Rebu_drop, order=['High', 'Medium', '
 
 ---
 
-### 🔥 3. Correlation Between Specs & Condition
+### 3. Correlation Between Specs & Condition
 
 ```python
 sns.heatmap(Rebu_drop[['Condition.Score', 'RAM.GB', 'HDD.MB']].corr(), annot=True)
@@ -100,7 +100,7 @@ Rebu_drop.groupby(['Type', 'Condition.Category']).size().unstack().plot(kind='ba
 
 ---
 
-### 🥧 6. Proportion of Condition Categories (Pie View)
+### 6. Proportion of Condition Categories (Pie View)
 
 ```python
 Rebu_drop['Condition.Category'].value_counts().plot(kind='pie', autopct='%1.1f%%')
@@ -114,7 +114,7 @@ Rebu_drop['Condition.Category'].value_counts().plot(kind='pie', autopct='%1.1f%%
 
 ---
 
-### 🗑️ 7. Manufacturers of Discarded Devices
+### 7. Manufacturers of Discarded Devices
 
 ```python
 Rebu_drop[Rebu_drop['Condition.Category'] == 'Discard']['Manufacturer'].value_counts().plot(kind='barh')
@@ -128,7 +128,7 @@ Rebu_drop[Rebu_drop['Condition.Category'] == 'Discard']['Manufacturer'].value_co
 
 ---
 
-### ⚙️ 8. Component Impact on Condition
+### 8. Component Impact on Condition
 
 ```python
 sns.scatterplot(x='RAM.GB', y='Condition.Score', hue='Condition.Category')
@@ -145,7 +145,7 @@ sns.scatterplot(x='HDD.MB', y='Condition.Score', hue='Condition.Category')
 
 ---
 
-### 📅 9. Device Registration Trends Over Time
+### 9. Device Registration Trends Over Time
 
 ```python
 df.groupby('Month')['Device_ID'].count().plot(marker='o')
@@ -159,7 +159,7 @@ df.groupby('Month')['Device_ID'].count().plot(marker='o')
 
 ---
 
-## ✅ Final Conclusions
+## Final Conclusions
 
 - **Most devices (84%) are reusable**, which strongly supports circularity goals.
 - **Hardware specs (RAM/HDD)** play a major role in **condition ratings**.
@@ -169,13 +169,13 @@ df.groupby('Month')['Device_ID'].count().plot(marker='o')
 
 ---
 
-## 📬 Author & Contact
+## Author & Contact
 
-**👩 Author:** UKANDU Chidinma  
-🎓 Master's Student in Business Intelligence  
-📍 Besançon, France  
-📫 Email: chidinmaukandu8@gmail.com
-💼 LinkedIn: ([https://www.linkedin.com/in/chidinma-ukandu](https://www.linkedin.com/in/chidinma-ukandu-nwafor-01357b156/))
+** Author:** UKANDU Chidinma  
+Master's Student in Business Intelligence  
+Besançon, France  
+Email: chidinmaukandu8@gmail.com
+LinkedIn: ([https://www.linkedin.com/in/chidinma-ukandu](https://www.linkedin.com/in/chidinma-ukandu-nwafor-01357b156/))
 
 ---
 
