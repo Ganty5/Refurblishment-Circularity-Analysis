@@ -179,9 +179,5 @@ LinkedIn: ([https://www.linkedin.com/in/chidinma-ukandu](https://www.linkedin.co
 
 ---
 
-## 📄 License
 
-Licensed under the [MIT License](LICENSE)
-
----
 
